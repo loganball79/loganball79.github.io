@@ -1,0 +1,221 @@
+/* Fonts
+font-family: 'Abril Fatface', cursive;
+font-family: 'Dosis', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Merriweather', serif;
+font-family: 'Work Sans', sans-serif; */
+
+/* .first-color { 
+	background: #f6f6f6; 
+}
+.second-color { 
+	background: #d6e4f0; 
+}
+.third-color { 
+	background: #1e56a0; 
+}
+.fourth-color { 
+	background: #163172; 
+
+*/
+
+html {
+    font-size: 16px;
+	margin: 0;
+	padding: 0;
+	background-color: white;
+	box-sizing: border-box;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.lighter {
+	font-weight: lighter;
+}
+
+.italic {
+	font-style: italic;
+}
+
+body {
+	margin: 0;
+	font-family: 'Lato', sans-serif;
+	height: 100%;
+	width: 100%;
+}
+
+.container {
+    width: 96%;
+	padding-left: 2%;
+	padding-right: 2%;
+	border-style: border-box;
+	overflow: hidden;
+	border-bottom: 1px solid black;
+}
+
+.navbar {
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.logo {
+	height: 3.5rem;
+	padding-bottom: 0.5rem;
+	padding-top: 0.5rem;
+}
+
+nav {
+	flex: 1;
+	text-align: right;
+}
+
+nav ul {
+	margin-right: 1px;
+}
+
+nav ul li {
+	list-style: none;
+	display: inline-block;
+	margin-right: 30px;
+}
+
+ul a {
+	font-size: 1.3rem;
+	color: #1e56a0;
+	text-decoration: none;
+}
+
+@media only screen and (max-width: 544px) {
+	nav ul {
+		display: none;
+	}
+}
+
+/* BANNER */
+
+main {
+	height: 100%;
+	width: 100%
+}
+
+.main-banners {
+	display: flex;
+	background-image: url("./resources/images/banner.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 42rem;
+	max-width: 100%;
+}
+
+.banner-boxes {
+	position: relative;
+	top: 25%;
+	bottom: 25%;
+	left: 25%;
+	right: 25%;
+	height: 25rem;
+}
+
+.text-banner-box {
+	height: 15.625rem;
+	max-width: 43.75rem;
+	background-color: rgba(34, 49, 84, 0.9);
+	border: 1px solid black;
+	overflow: hidden;
+}
+
+.text-banner-box h2, h3 {
+	color: aliceblue;
+	text-align: left;
+	padding-left: 10px;
+	line-height: 1.9;
+}
+
+.text-banner-box h2 {
+	font-size: 1.75rem;
+}
+
+.text-banner-box h3 {
+	font-weight: lighter;
+}
+
+.box {
+	position: absolute; 
+	background-color: rgba(34, 49, 84, 0.9);
+	border: 1px solid black;
+	height: 35%;
+	width: 49%;
+	margin-top: 0.5rem;
+}
+
+.a {
+	color: aliceblue;
+}
+
+
+.b {
+	right: 0px;
+	color: aliceblue;
+}
+
+.a h4 {
+    padding-left: 13px;
+}
+
+.b h4 {
+    padding-left: 13px;
+}
+
+
+@media only screen and (max-width: 933px) {
+	html {
+		font-size: 12px
+	}
+
+	.main-banner {
+		display: flex;
+		background-image: url("./resources/images/banner.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 470px;
+		max-width: 1000px;
+	}
+
+		.header ul {
+			display: none;
+    }
+}
+/* QUOTES SECTION */
+
+.quotes-section {
+	display: flex;
+	width: 100%;
+	height: 350px;
+	background-color: #223154;
+	justify-content: space-evenly;
+	align-content: center;
+}
+
+.quote-box {
+	position: relative;
+	font-size: 1.2rem;
+	height: 180px;
+	width: 25%;
+	background-color: white;
+	margin-top: 70px;
+    text-align: center;
+	padding: 10px 20px;
+	border-radius: 6px;
+}
+
+.our-investments {
+	height: 550px;
+	background-image: url("./resources/images/banner5.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
